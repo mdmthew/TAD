@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alfonso Serrano | Portfolio</title>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top site-navbar" aria-label="Menú principal">
+    <div class="container">
+      <a class="navbar-brand navbar-logo" href="#inicio" aria-label="Ir al inicio">
+        <img src="img/logo-header.jpg" alt="Logo personal de Alfonso Serrano">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+        aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <section id="inicio" class="hero text-center">
+    <div class="container">
+      <div class="hero-panel mx-auto">
+        <p class="hero-eyebrow mb-2">Portfolio personal</p>
+
+        <h1 class="fw-bold">Alfonso Serrano Galán</h1>
+
+        <p class="lead hero-lead">
+          Estudiante de Ingeniería Informática · UPO
+        </p>
+
+        <p class="hero-text">
+          Interesado en el desarrollo de software, nuevas tecnologías y automatización de procesos.
+        </p>
+
+        <button class="btn btn-primary mt-3 px-4 py-2" type="button" data-bs-toggle="modal" data-bs-target="#cvModal">
+          Ver CV
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre-mi" class="about-section py-5">
+    <div class="container">
+      <div class="about-wrapper">
+        <div class="row g-4 align-items-stretch">
+
+          <div class="col-12 col-lg-5">
+            <div class="about-intro h-100">
+              <span class="section-kicker">Sobre mí</span>
+              <h2 class="section-title mb-3">Perfil personal y profesional</h2>
+
+              <p class="about-lead">
+                Estudiante de Ingeniería Informática orientado al aprendizaje continuo y a la búsqueda de nuevos retos profesionales donde aportar conocimientos y seguir creciendo.
+              </p>
+
+              <div class="about-tags mt-4">
+                <span class="badge rounded-pill text-bg-primary">Java</span>
+                <span class="badge rounded-pill text-bg-success">Python</span>
+                <span class="badge rounded-pill text-bg-info text-dark">SQL</span>
+                <span class="badge rounded-pill text-bg-dark">Docker</span>
+                <span class="badge rounded-pill text-bg-secondary">Git</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-7">
+            <div class="about-card h-100">
+              <div class="row g-4">
+                <div class="col-12 col-md-6">
+                  <div class="info-block">
+                    <h3 class="info-title">Quién soy</h3>
+                    <p>
+                      Me considero una persona curiosa, con interés en comprender cómo funcionan las tecnologías y en aprender constantemente a través de proyectos, formación y experiencia práctica.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                  <div class="info-block">
+                    <h3 class="info-title">Situación actual</h3>
+                    <p>
+                      Actualmente estoy realizando prácticas en Avanade, dentro del entorno Accenture, en una etapa de formación profesional en la que sigo desarrollando mi perfil técnico.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="highlight-panel">
+                    <h3 class="info-title">En qué destaco</h3>
+                    <ul class="feature-list">
+                      <li>Interés por nuevas tecnologías y automatización</li>
+                      <li>Capacidad de aprendizaje continuo</li>
+                      <li>Experiencia en proyectos personales y académicos</li>
+                      <li>Motivación por crecer profesionalmente en el sector IT</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyectos" class="projects-section py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-kicker">Proyectos</span>
+        <h2 class="section-title">Experiencia académica y personal</h2>
+        <p class="section-subtitle">
+          Algunos proyectos que reflejan mis intereses en tecnología, automatización y productos digitales.
+        </p>
+      </div>
+
+      <div class="row g-4">
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="card project-card h-100 border-0 shadow-sm">
+            <img src="img/guias.png" class="card-img-top project-image" alt="Proyecto de guías turísticas en formato digital">
+            <div class="card-body project-body">
+              <h3 class="h5 project-title">Guías turísticas</h3>
+              <p class="project-text">
+                Desarrollo de guías digitales basadas en experiencias reales de viaje, orientadas a ofrecer contenido útil y práctico.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="card project-card h-100 border-0 shadow-sm">
+            <img src="img/nfc.png" class="card-img-top project-image" alt="Proyecto sobre aprendizaje de tecnología RFID y NFC">
+            <div class="card-body project-body">
+              <h3 class="h5 project-title">Tecnología NFC / RFID</h3>
+              <p class="project-text">
+                Estudio del funcionamiento de tecnologías sin contacto aplicadas a accesos, pagos, transporte y otros entornos reales.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-4">
+          <article class="card project-card h-100 border-0 shadow-sm">
+            <img src="img/streaming.png" class="card-img-top project-image" alt="Proyecto de gestión de clientes para servicios digitales">
+            <div class="card-body project-body">
+              <h3 class="h5 project-title">Gestión de clientes</h3>
+              <p class="project-text">
+                Proyecto personal centrado en la organización y seguimiento de clientes para servicios digitales, automatizando tareas de gestión.
+              </p>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="py-5">
+    <div class="container">
+      <h2 class="section-title text-center mb-4">Contacto</h2>
+
+      <form class="col-md-6 mx-auto needs-validation" novalidate>
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input id="nombre" name="nombre" type="text" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input id="email" name="email" type="email" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" class="form-control" rows="5" required></textarea>
+        </div>
+
+        <button class="btn btn-dark mt-2 px-4 py-2" type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<div class="modal fade" id="cvModal" tabindex="-1" aria-labelledby="cvModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="h5 mb-0" id="cvModalLabel">Currículum</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+
+      <div class="modal-body">
+        <p><strong>Nombre:</strong> Alfonso Serrano Galán</p>
+        <p><strong>Estudios:</strong> Ingeniería Informática (UPO)</p>
+        <p><strong>Empresa:</strong> Avanade (Accenture)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="bg-dark text-white text-center py-3">
+  Alfonso Serrano · Sevilla
+</footer>
+
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
